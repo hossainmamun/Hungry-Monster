@@ -1,0 +1,81 @@
+#search-section{
+    background-color: rgb(35, 104, 81);
+    padding: 50px 0;
+}
+#search-section input{
+    padding: 20px;
+    text-transform: capitalize;
+}
+#search-section button{
+    padding: 0px 20px;
+    text-transform: capitalize;
+}
+
+#display-list{
+    background-color: cornsilk;
+    padding: 50px 0;
+    display: none;
+}
+#meal-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: center;
+}
+.card-detail{
+    background-color: rgb(238, 238, 193);
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-detail img{
+    width: 300px;
+    height: 250px;
+}
+.card-detail h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.card-detail button{
+    margin: 5px 0px 10px 0px;
+}
+
+
+/* ------- */
+#single-meal-detail{
+    text-align: center;
+    padding: 20px 0;
+}
+#single-meal-detail img{
+    width: 400px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#single-meal-detail p{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 5px 0 0 0;
+}
+#single-meal-detail strong{
+    font-size: 20px;
+    color: crimson;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+#single-meal-detail ul{
+    list-style: none;
+}
+#single-meal-detail ul li{
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+#result h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 20px 0 30px;
+    text-align: center;
+}
